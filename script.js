@@ -1,7 +1,11 @@
 function arrSorter(numArr) {
-  var sortedArr = numArr.sort();
+  var sortedArr = numArr.sort(valueSort);
   return sortedArr;
 };
+
+function valueSort(a, b) {
+  return a - b;
+}
 
 function greaterQuarter(numArr) {
   var greaterArr = [];
