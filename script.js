@@ -8,6 +8,13 @@ function greaterQuarter(numArr) {
   return greaterArr;
 };
 
+function arrSorter(numArr) {
+  var sortedArr = numArr.sort();
+  return sortedArr;
+};
+
 $("#sort").click(function(e) {
   e.preventDefault;
+  var userInput = $("#csv").value.split(",");
+  
 });
