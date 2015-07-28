@@ -18,10 +18,11 @@ function renderOutput(numArr) {
   for(var i=0; i<numArr.length; i++) {
     outputString += "<div class='number'>" + numArr[i] + "</div>";
   }
+  $("#content").append(outputString);
 };
 
 $("#sort").click(function(e) {
-  e.preventDefault;
-  var userInput = $("#csv").value.split(",");
+  e.preventDefault();
+  var userInput = $("#csv").val().split(",");
   renderOutput(greaterQuarter(arrSorter(userInput)))
 });
