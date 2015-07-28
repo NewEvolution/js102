@@ -1,8 +1,18 @@
-body {
-  font-family: sans-serif;
+.number:nth-child(2n+0) {
+  color: red;
+}
+
+.number:nth-child(2n+1){
+  background-color: azure;
 }
 
 /* Technically not in the instructions, but I wanted things to be prettier */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .number {
   display: inline-block;
   margin: 10px;
@@ -10,10 +20,15 @@ body {
   float: left;
 }
 
-.number:nth-child(2n+0) {
-  color: red;
+#form {
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
 }
 
-.number:nth-child(2n+1){
-  background-color: azure;
+#content {
+  padding-top: 50px;
+  margin: 0;
 }
