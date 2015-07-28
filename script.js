@@ -7,3 +7,4 @@ function greaterQuarter(numArr) {
   }
   return greaterArr;
 };
+
