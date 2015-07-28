@@ -13,11 +13,9 @@ body {
   padding: 0;
 }
 
-.number {
-  display: inline-block;
-  margin: 10px;
-  padding: 30px;
-  float: left;
+input {
+  border: 0;
+  box-shadow: 3px 3px 5px #bbb inset, -1px -1px 0 #f7f7f7 inset;
 }
 
 #form {
@@ -32,4 +30,11 @@ body {
 #content {
   padding-top: 50px;
   margin: 0;
+}
+
+.number {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  float: left;
 }
