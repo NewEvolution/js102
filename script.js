@@ -8,3 +8,6 @@ function greaterQuarter(numArr) {
   return greaterArr;
 };
 
+$("#sort").click(function(e) {
+  e.preventDefault;
+});
