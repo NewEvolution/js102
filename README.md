@@ -22,7 +22,7 @@
   
   11. The array that is the result of that, pass it into the function that sorts the array.
   
-  12. Loop over the sorted array and create a DOM string that wraps a /<div> element around each number (e.g. output += something).
+  12. Loop over the sorted array and create a DOM string that wraps a <!--<div>--> element around each number (e.g. output += something).
   
   13. Give each /<div> a class of "number".
   
