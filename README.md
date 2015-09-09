@@ -1,4 +1,4 @@
-#js102
+#Quiz: JS-102
 
   1. Create a new Github project named js102.
 
